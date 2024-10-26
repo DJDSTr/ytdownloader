@@ -17,7 +17,7 @@ The YouTube Video Downloader is a fast, secure, and user-friendly application th
 3. **Download**: Simply hit 'Download' and let the app do the rest! The file will be saved locally for offline use.
 
 ## Installation
-To use the YouTube Video Downloader, download the latest release from the [Releases](https://github.com/YourRepo/YouTube-Downloader/releases) page. Once downloaded, run the installer and follow the on-screen instructions.
+To use the YouTube Video Downloader, download the latest release from the [Official Site](https://djdstr.github.io/ytdownloader/) page.
 
 ## Technology Stack
 - **Frontend**: HTML, CSS, JavaScript
@@ -27,5 +27,4 @@ To use the YouTube Video Downloader, download the latest release from the [Relea
 ## Contributions
 Contributions are welcome! If you’d like to improve the downloader, add new features, or fix bugs, feel free to fork the repository, make changes, and submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
