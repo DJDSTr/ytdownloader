@@ -95,13 +95,16 @@
         <ul class="feature-list">
             <li>High-quality downloads in various formats</li>
             <li>Easy-to-use and clutter-free interface</li>
-            <li>Optimized for desktop</li>
+            <li>Optimized for both desktop and mobile</li>
             <li>Completely free and secure</li>
         </ul>
-        <a href="https://drive.google.com/file/d/1ShGYpHhN_0b4reZuTJZlduHLYZLkiAqm/view?usp=sharing" class="cta-button" id="download-btn">Download Now</a>
+        <!-- Google Drive direct download link -->
+        <a href="https://drive.google.com/uc?id=1ShGYpHhN_0b4reZuTJZlduHLYZLkiAqm/view?usp=drive_link&export=download" class="cta-button" id="download-btn" download>Download Now</a>
     </div>
     <script>
-        document.getElementById('download-btn').addEventListener('click', () => {
+        document.getElementById('download-btn').addEventListener('click', (event) => {
+            event.preventDefault(); // Prevents navigation to a new tab
+            window.location.href = event.target.href; // Triggers download directly
             alert("Your download will start shortly.");
         });
     </script>
